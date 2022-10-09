@@ -1,0 +1,131 @@
+*{
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+
+@media (min-width: 1055px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#home-text{
+    margin-top: -24px !important;
+    margin-bottom: -8px !important;
+    padding-top: 88px;
+    padding-bottom: 113px;
+    font-family: 'Uncial Antiqua', cursive; 
+}
+
+
+
+/* The Company name (THE BURGER AND CO.) */
+
+@media screen and (min-width: 1122px) {
+    .company-name {
+      font-size: 90px;
+    }
+}
+@media screen and (max-width: 1121px) {
+    .company-name {
+      font-size: 80px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .company-name {
+      font-size: 70px;
+    }
+}
+ 
+@media screen and (max-width: 878px) {
+    .company-name {
+      font-size: 60px;
+    }
+}
+@media screen and (max-width: 756px) {
+    .company-name {
+      font-size: 40px;
+    }
+}
+@media screen and (max-width: 513px) {
+    .company-name {
+      font-size: 33px;
+    }
+}
+
+
+/* headings */
+
+.heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+/* hide corousal */
+
+@media (max-width: 576px) {
+    .hide-content {
+      display: none;
+    }
+}
+
+
+
+
+
+
+/* JOIN INDIA’S FASTEST GROWING BURGER BRAND */
+
+@media screen and (min-width: 474px) {
+    .join {
+      font-size: 60px;
+    }
+}
+@media screen and (max-width: 473px) {
+    .join {
+      font-size: 50px;
+    }
+}
+
+ 
+
+
+
